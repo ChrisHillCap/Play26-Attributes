@@ -12,9 +12,9 @@ import services.RequestHandler
 class RequestAttr @Inject()(cc: ControllerComponents,s:RequestHandler) extends AbstractController(cc) with BaseController {
 
 
-  def getattrsOfUser = Action{implicit request:Request[AnyContent] =>
+  /*def getattrsOfUser = Action{implicit request:Request[AnyContent] =>
     Ok(s.getUserAttributeFromRequest())(User.writeableS)
   }
-
+*/
 }
 

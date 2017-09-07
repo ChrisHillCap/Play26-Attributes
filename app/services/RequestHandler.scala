@@ -8,6 +8,7 @@ import play.api.mvc.{AnyContent, Request}
 
 @Singleton
 class RequestHandler @Inject()() {
+/*
 
   def addUIDAttributeToRequest(UID:String)(implicit request:Request[AnyContent]):Request[AnyContent] = {
     request.addAttr[String](Attributes.UIDTypeKey,UID)
@@ -19,6 +20,7 @@ class RequestHandler @Inject()() {
   def getUserAttributeFromRequest()(implicit request: Request[AnyContent]):User = {
     addAttributeToRequest().attrs.get(Attributes.userTypeKey).get
   }
+*/
 
 
 }

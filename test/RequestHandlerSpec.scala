@@ -8,7 +8,7 @@ import services.RequestHandler
 
 class RequestHandlerSpec extends MockitoSugar with PlaySpecification {
 
-  val service = new RequestHandler
+ /* val service = new RequestHandler
 
   implicit val request = FakeRequest()
 
@@ -35,6 +35,6 @@ class RequestHandlerSpec extends MockitoSugar with PlaySpecification {
 
      res shouldEqual User("billy","bob")
     }
-  }
+  }*/
 
 }
